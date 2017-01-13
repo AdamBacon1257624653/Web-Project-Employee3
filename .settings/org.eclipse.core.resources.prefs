@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+encoding//WebRoot/jses/mymenu.js=UTF-8
+encoding//src/cn/itcast/dao/DeptDao.java=gbk
+encoding//src/cn/itcast/dao/EmpDao.java=GBK
+encoding//src/cn/itcast/dao/SalDao.java=gbk
+encoding//src/cn/itcast/domain/VerifyCode.java=gbk
+encoding//src/cn/itcast/domain/database/Employee.java=gbk
+encoding//src/cn/itcast/service/EmpService.java=gbk
+encoding//src/cn/itcast/servlets/DeptServlet.java=gbk
+encoding//src/cn/itcast/servlets/EmpServlet.java=UTF-8
+encoding//src/cn/itcast/servlets/UserServlet.java=UTF-8
+encoding//src/cn/itcast/servlets/VerifyCodeServlet.java=gbk
+encoding//src/cn/itcast/servlets/jqueryServlet.java=UTF-8

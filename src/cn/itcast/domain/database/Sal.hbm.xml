@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.itcast.domain.database">
+	<class name="Sal" table="sal">
+		<id name="salno" type="int" column="salno">
+			<generator class="increment"></generator>
+		</id>
+		<property name="losal" type="int" column="losal"></property>
+		<property name="hisal" type="int" column="hisal"></property>
+		<property name="salname" type="string" column="salname"></property>
+	</class>
+</hibernate-mapping>

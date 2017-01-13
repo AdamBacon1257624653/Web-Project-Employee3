@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+	
+<hibernate-mapping package="cn.itcast.domain.database">
+	<class name="Employee" table="emp">
+		<id name="id" type="string" column="id">
+			<generator class="uuid"></generator>
+		</id>
+		<property name="name" type="string" column="name"></property>
+		<property name="password" type="string" column="password"></property>
+		<property name="sex" type="string" column="sex"></property>
+		<property name="age" type="int" column="age"></property>
+		<property name="province" type="string" column="province"></property>
+		<property name="city" type="string" column="city"></property>
+		<property name="phone" type="string" column="phone"></property>
+		<property name="wrongMessage" type="string" column="wrongMessage"></property>
+		<property name="dutytime" type="int" column="dutytime"></property>
+		<property name="salary" type="int" column="salary"></property>
+		<property name="isManager" type="int" column="isManager"></property>
+		<property name="isRight" type="int" column="isRight"></property>
+		<property name="offtime" type="int" column="offtime"></property>
+		<!-- 关联关系 (Relationship)-->
+		<many-to-one name="department" class="Department" column="dno"/>
+	</class>
+</hibernate-mapping>

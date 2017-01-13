@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<display-name></display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>UserServlet</servlet-name>
+		<servlet-class>cn.itcast.servlets.UserServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>EmpServlet</servlet-name>
+		<servlet-class>cn.itcast.servlets.EmpServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <servlet-name>jqueryServlet</servlet-name>
+    <servlet-class>cn.itcast.servlets.jqueryServlet</servlet-class>
+  </servlet>
+    <servlet>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <servlet-class>cn.itcast.servlets.VerifyCodeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeptServlet</servlet-name>
+    <servlet-class>cn.itcast.servlets.DeptServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SalServlet</servlet-name>
+    <servlet-class>cn.itcast.servlets.SalServlet</servlet-class>
+  </servlet>
+
+	<servlet-mapping>
+		<servlet-name>UserServlet</servlet-name>
+		<url-pattern>/UserServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>EmpServlet</servlet-name>
+		<url-pattern>/EmpServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>jqueryServlet</servlet-name>
+    <url-pattern>/jqueryServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>VerifyCodeServlet</servlet-name>
+    <url-pattern>/VerifyCodeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeptServlet</servlet-name>
+    <url-pattern>/DeptServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SalServlet</servlet-name>
+    <url-pattern>/SalServlet</url-pattern>
+  </servlet-mapping>
+</web-app>
